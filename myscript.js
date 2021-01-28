@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 $("p1").click(function()
 {
-	$("dissapear.className").toggle();
+	$(".dissapear").toggle();
 });
 
 $("img").dblclick(function(){
