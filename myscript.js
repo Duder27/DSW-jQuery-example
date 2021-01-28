@@ -9,7 +9,10 @@ $(document).ready(function() {
 $("p1").click(function()
 {
 	$("dissapear.className").toggle();
-}
+});
 
-
+$("img").dblclick(function(){
+  $("img").fadeOut();
+});
+	
 });
