@@ -8,10 +8,11 @@ $(document).ready(function() {
 	});
 $("p1").click(function()
 {
-	$(".dissapear").toggle();
+	$("dissapear").toggle();
 });
 
-$("img").dblclick(function(){
+$("img").dblclick(function()
+{
   $("img").fadeOut();
 });
 	
